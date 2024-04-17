@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="/src/styles.css">
+  <title>Portfolio</title>
+</head>
+<body id="budy" class="relative font-Manrope bg-darkgray">
+  <header class="max-w-7xl mx-auto flex items-center justify-between px-5 py-5 md:py-10">
+    <div class="flex items-center justify-center gap-x-8">
+      <a href="/" class="font-semibold text-xl text-yellow">
+        Hutorskoy
+      </a>
+      <button type="button" class="hidden md:block border border-white text-white text-sm px-6 py-1.5">
+        Change topic
+      </button>
+    </div>
+    <div class="hidden md:flex items-center justify-center gap-x-7">
+      <a href="#" class="text-xl text-yellow hover:underline">Cases</a>
+      <a href="#" class="text-xl text-white">About me</a>
+      <a href="#" class="text-xl text-white">Price</a>
+      <a href="#" class="text-xl text-white">Contact</a>
+    </div>
+    <button id="hello" class="hunburger burger flex md:hidden">
+      <span></span>
+    </button>
+  </header>
+  
+  <main>
+    <section>
+      <div class="max-w-7xl mx-auto px-5">
+        <div class="flex items-center justify-start sm:justify-center lg:justify-start">
+          <div class="flex flex-col lg:flex-row items-start lg:items-center justify-center lg:justify-start lg:gap-x-6 pt-20">
+            <div class="inline-block lg:rotate-6 rounded-3xl rounded-bl-none text-base md:text-xl bg-white self-center sm:self-auto px-4 py-3">
+              Hello, I'm
+            </div>
+            <div class="relative mt-2">
+              <h1 class="max-w-60 sm:max-w-7xl relative z-20 text-5xl md:text-7xl lg:text-8xl base:text-[110px] text-space-yellow text-end sm:text-center">Andrey  <span class="hidden sm:inline-block">&ensp;</span>  Hutorskoy</h1>
+              <div class="absolute top-0 sm:-top-24 lg:-top-16 left-[80%] sm:left-[29%] lg:left-[31%] base:left-[33%] z-10">
+                <div class="relative parrent">
+                  <div class="absolute top-2 child z-20 left-1/2 translate-y-1/2 -translate-x-1/2">
+                    <img src="./img/SMiler1.png" alt="smail">           
+                  </div>
+                  <div class="w-32 md:w-44 h-40 md:h-60 relative z-10">
+                    <img class="w-full h-full object-cover rotate-[9deg]" src="./img/andrey.png" alt="Andrey Hutorskoy">
+                  </div> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center justify-end sm:justify-center">
+          <div class="max-w-64 sm:max-w-7xl w-full relative z-20 flex flex-col sm:flex-row items-start justify-start sm:justify-between lg:justify-start gap-x-2 medium:gap-x-24 pt-5">
+            <h2 class="text-5xl md:text-7xl lg:text-8xl base:text-[110px] text-yellow">web <br class="sm:hidden"> developer</h2>
+            <p class="max-w-[330px] font-OpenSans text-space-yellow text-base lg:text-xl mt-6 sm:mt-0">
+              Projects at the intersection of logic, meaning,marketing, design and layout.Logical and effective
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="hunburgerManu" class="-left-[950px] bg-darkgray bg-darkblue-200 navbar-menu fixed flex flex-col items-center justify-between md:hidden top-[66px] h-[950px] w-full transition-all ease-in-out duration-300 z-[99999]" style="height: calc(100% - 100px);">
+    <div class="flex flex-col items-center justify-center gap-y-4 mt-8">
+      <a href="#" class="text-xl text-yellow hover:underline">Cases</a>
+      <a href="#" class="text-xl text-white">About me</a>
+      <a href="#" class="text-xl text-white">Price</a>
+      <a href="#" class="text-xl text-white">Contact</a>
+    </div>
+    <div class="max-w-28 mx-auto flex items-center justify-center">
+      <div class="bg-black border border-white rounded-full w-5 h-5 mr-2"></div>
+      <h4 class="text-white mr-1">Apple</h4>
+      <div class="relative w-[30px] h-[20px]">
+      <div class="absolute top-0 right-2.5 bg-green border border-white rounded-full w-5 h-5"></div>
+      <div class="absolute top-0 right-0 bg-skyblue border border-white rounded-full w-5 h-5"></div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./app.js"></script>
+</html>
