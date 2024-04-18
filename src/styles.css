@@ -62,3 +62,24 @@
   .heading-hero {
     font-size: clamp(50px, 8.59vw,110px);
   }
+
+  /* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #232323; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #EAC566;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+} */

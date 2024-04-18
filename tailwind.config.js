@@ -18,7 +18,8 @@ module.exports = {
         'space-yellow': '#EBE3CE',
         'green': '#00713D',
         'skyblue': '#1F6AAD',
-        'wheat': '#E9E9EB'
+        'wheat': '#E9E9EB',
+        'space-wheat': '#EBE3CE',
       }
     },
   },
