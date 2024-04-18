@@ -580,6 +580,9 @@ video {
 .mt-12 {
   margin-top: 3rem;
 }
+.mt-24 {
+  margin-top: 6rem;
+}
 .block {
   display: block;
 }
@@ -1035,6 +1038,10 @@ video {
 }
 
   @media (min-width: 768px) {
+
+  .md\:mt-36 {
+    margin-top: 9rem;
+  }
 
   .md\:block {
     display: block;
