@@ -13,11 +13,12 @@ module.exports = {
       },
       colors: {
         'darkgray': '#232323',
+        'space-gray': '#2A2A29',
         'yellow': '#EAC566',
         'space-yellow': '#EBE3CE',
         'green': '#00713D',
         'skyblue': '#1F6AAD',
-        'wheat': '#EBE3CE'
+        'wheat': '#E9E9EB'
       }
     },
   },
