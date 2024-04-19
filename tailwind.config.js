@@ -19,6 +19,7 @@ module.exports = {
         'spaced-gray': '#191919',
         'white-gray': '#656565',
         'yellow': '#EAC566',
+        'spaced-yellow': '#F6DE9D',
         'space-yellow': '#EBE3CE',
         'green': '#00713D',
         'skyblue': '#1F6AAD',
